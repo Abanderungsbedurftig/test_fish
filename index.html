@@ -19,7 +19,8 @@
           'Content-Type': 'application/json',
           'Authorization': 'Basic YWRtaW46azlucEk5MXRyNXoycTlZOEJPcTByZHhXNA==',
         }
-      })
+      }).then((res) => console.dir(res))
+      .catch(err => console.dir(err))
     }
   </script>
 </body>
